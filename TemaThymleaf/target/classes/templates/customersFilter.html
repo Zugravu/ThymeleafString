@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="ro" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Customer</title>
+</head>
+<body>
+
+<div th:each="customer: ${customersFilter}">
+    <p th:text="${customer.getUsername() + ' ' + customer.getCity() + ' ' + customer.getCountry()}"></p>
+</div>
+</div>
+</body>
+</html>
