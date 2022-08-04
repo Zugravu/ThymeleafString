@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequiredArgsConstructor
-@RequestMapping("orders")
+@RequestMapping("ordershtml")
 public class OrdersViewController {
     private final OrdersService ordersService;
 
